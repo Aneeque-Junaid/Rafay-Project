@@ -1,0 +1,24 @@
+@font-face{
+    font-family: "NeueMachina-Light";
+    src: url("./assets/fonts/NeueMachina-Light.otf") format("otf");
+}
+@font-face{
+    font-family: "NeueMachina-Regular";
+    src: url("./assets/fonts/NeueMachina-Regular.otf") format("otf");
+}
+@font-face{
+    font-family: "NeueMachina-Ultrabold";
+    src: url("./assets/fonts/NeueMachina-Ultrabold.otf") format("otf");
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #1b1b1b;
+    color: #fbfbfb;
+    font-family: "NeueMachina-Light";
+}
+
+
+
