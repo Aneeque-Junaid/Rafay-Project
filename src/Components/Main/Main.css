@@ -1,18 +1,18 @@
 
 
 main{
-    margin: 0 9rem;
+    margin: 0 7rem;
 }
 
 .main-div{
     display: flex;
-    gap: 2rem;
+    gap: 1rem;
 }
 
 
 .main-left h1{
-    font-size: 90px;
-    line-height: 6.5rem;
+    font-size: 65px;
+    line-height: 6rem;
     margin-bottom: 2.25rem;
     font-weight: 500;
 }
@@ -23,23 +23,24 @@ main{
     line-height: 26px;
 }
 
-@media screen and (max-width: 999px) {
+@media screen and (max-width: 1080px) {
     main {
         margin: 5rem auto;
         padding: 0 1rem;
     }
     .main-div{
-        gap: 1rem;
+        /* gap: 2rem; */
     }
 
     .main-left h1 {
         font-size: 3rem; 
-        line-height: 3.5rem; 
+        line-height: 3.5rem;
+        width: 20ch; 
         margin-bottom: 1rem; 
     }
 
     .main-left p {
-        font-size: 1.25rem; 
+        font-size: 1rem; 
         line-height: 1.5rem;
         width: 40ch; 
     }
@@ -51,6 +52,38 @@ main{
     .main-right img {
         width: 250px; 
         height: 250px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    main {
+        margin: 5rem auto;
+        padding: 0 1rem;
+    }
+    .main-div{
+        /* gap: 2rem; */
+    }
+
+    .main-left h1 {
+        font-size: 3rem; 
+        line-height: 3.5rem;
+        width: 20ch; 
+        margin-bottom: 1rem; 
+    }
+
+    .main-left p {
+        font-size: 1rem; 
+        line-height: 1.5rem;
+        width: 40ch; 
+    }
+
+    .main-right {
+        text-align: center; 
+    }
+
+    .main-right img {
+        width: 200px; 
+        height: 200px;
     }
 }
 

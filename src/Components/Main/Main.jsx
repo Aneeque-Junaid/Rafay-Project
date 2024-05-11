@@ -13,7 +13,7 @@ const Main = () => {
                 <p>At BlockGenesys, we understand the blood, sweat, and code ​that go into building your blockchain legacy. That's why our ​mission is crystal clear: to shield your digital assets from the ​ever-looming specter of cyber threats. Think of us as your ​trusty companions in the fight against the forces of ​darkness lurking in the digital shadows.</p>
             </div>
             <div className="main-right">
-                <img src={Logo} alt="" width={400} height={400} />
+                <img src={Logo} alt="" width={350} height={350} />
             </div>
         </div>
         <div>
