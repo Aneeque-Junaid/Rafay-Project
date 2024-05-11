@@ -5,7 +5,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 12rem;
+    gap: 4.5rem;
 }
 
 .page-left h1{
@@ -25,20 +25,17 @@
     margin-bottom: 1.5rem;
 }
 
-@media screen and (max-width: 999px) {
+@media screen and (max-width: 1080px) {
     #page-section {
         margin: 10rem auto;
         padding: 0 1rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        justify-content: space-evenly;
         gap: 3rem;
     }
 
     .page-left h1 {
         font-size: 2.5rem; 
         line-height: 2.5rem; 
-        text-align: left; 
         margin-bottom: 1.5rem;
     }
 
@@ -59,24 +56,22 @@
 }
 @media screen and (max-width: 700px) {
     #page-section {
-        margin: 10rem auto;
-        padding: 0 1rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 1rem;
+        margin: 5rem 0;
+        justify-content: space-evenly;
+        padding: 0;
+        gap: 0rem;
     }
 
     .page-left h1 {
-        font-size: 1.75rem; 
-        line-height: 1.75rem; 
+        font-size: 1.25rem; 
+        line-height: 1.25rem; 
         text-align: left; 
         margin-bottom: 1.5rem;
     }
 
     .page-left p {
-        font-size: 0.8rem; 
-        line-height: 0.8rem;
+        font-size: 0.75rem; 
+        line-height: 0.75rem;
         width: 40ch; 
         text-align: left;
         margin-bottom: 1rem;
@@ -93,12 +88,9 @@
 
 @media screen and (max-width: 500px) {
     #page-section {
-        margin: 4rem auto;
-        padding: 0 1rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 2rem;
+        margin: 4rem 0;
+        gap: 1rem;
+        justify-content: space-evenly;
     }
 
     .page-left h1 {

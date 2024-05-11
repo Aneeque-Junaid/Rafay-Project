@@ -1,11 +1,10 @@
-
-
 main{
     margin: 0 7rem;
 }
 
 .main-div{
     display: flex;
+    justify-content: center;
     gap: 1rem;
 }
 
@@ -30,6 +29,7 @@ main{
     }
     .main-div{
         /* gap: 2rem; */
+        justify-content: space-around;
     }
 
     .main-left h1 {
@@ -55,26 +55,22 @@ main{
     }
 }
 
-@media screen and (max-width: 650px) {
-    main {
-        margin: 5rem auto;
-        padding: 0 1rem;
-    }
+@media screen and (max-width: 800px) {
     .main-div{
-        /* gap: 2rem; */
+        gap: 0rem;
     }
 
     .main-left h1 {
-        font-size: 3rem; 
-        line-height: 3.5rem;
+        font-size: 2rem; 
+        line-height: 2.5rem;
         width: 20ch; 
         margin-bottom: 1rem; 
     }
 
     .main-left p {
         font-size: 1rem; 
-        line-height: 1.5rem;
-        width: 40ch; 
+        line-height: 1rem;
+        width: 35ch; 
     }
 
     .main-right {
@@ -82,32 +78,29 @@ main{
     }
 
     .main-right img {
-        width: 200px; 
-        height: 200px;
+        width: 175px; 
+        height: 175px;
     }
 }
 
 
 
 @media screen and (max-width: 500px) {
-    main {
-        margin: 0 auto;
-        padding: 0 1rem;
-    }
     .main-div{
-        gap: 1rem;
+        gap: 0rem;
     }
 
     .main-left h1 {
         font-size: 1.5rem; 
         line-height: 1.5rem; 
+        width: 18ch;
         margin-bottom: 1rem; 
     }
 
     .main-left p {
         font-size: 8px; 
         line-height: 0.75rem;
-        width: 50ch; 
+        width: 45ch; 
     }
 
     .main-right {
