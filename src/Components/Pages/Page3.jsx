@@ -3,9 +3,9 @@ import Logo from "../../assets/03.svg"
 
 import "./Pages.css"
 
-const Page2 = () => {
+const Page3 = () => {
   return (
-    <div id='page-section'>
+    <div className='page-section'>
         <div className='page-left'>
             <p>03</p>
             <h1>
@@ -25,4 +25,4 @@ const Page2 = () => {
   )
 }
 
-export default Page2;
+export default Page3;

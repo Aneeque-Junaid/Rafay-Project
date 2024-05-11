@@ -4,7 +4,7 @@ import "./Pages.css"
 
 const Page2 = () => {
   return (
-    <div id='page-section'>
+    <div className='page-section'>
         <div className='page-left'>
             <p>02</p>
             <h1>

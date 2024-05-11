@@ -1,8 +1,16 @@
-import React from 'react'
+import React, {useContext} from 'react'
 import "./OurProcess.css"
 import Down from "../../assets/Down.gif"
+import {ScrollContext} from '../ScrollProvider'
 
 const OurProcess = () => {
+
+    const scrollToNextComponent = useContext(ScrollContext);
+    
+    const handleClick = () => {
+        scrollToNextComponent(); // Scroll to the next component
+      };
+
   return (
     <div id='our-process-section'>
             <h1>
@@ -11,7 +19,11 @@ const OurProcess = () => {
             <p>
                 Our team of expert auditors employs a meticulous and comprehensive approach to ​smart contract auditing. We combine industry best practices with cutting-edge ​technologies to identify potential vulnerabilities and ensure the integrity of your smart ​contracts.
             </p>
-            <img src={Down} alt="" width={100} height={100} />
+
+
+            <img src={Down} alt="" onClick={handleClick} />
+
+
     </div>
 )
 }

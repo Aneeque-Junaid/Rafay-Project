@@ -3,9 +3,9 @@ import Logo from "../../assets/0.svg"
 
 import "./Pages.css"
 
-const Page2 = () => {
+const Page0 = () => {
   return (
-    <div id='page-section'>
+    <div className='page-section'>
         <div className='page-left '>
             <h1>
                 Smart Contract ​Auditing
@@ -24,4 +24,4 @@ const Page2 = () => {
   )
 }
 
-export default Page2;
+export default Page0;

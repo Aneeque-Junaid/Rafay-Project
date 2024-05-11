@@ -2,10 +2,9 @@ import React from 'react'
 import Logo from "../../assets/01.svg"
 import "./Pages.css"
 
-const Page2 = () => {
-  return (
-    <div id='page-section'>
-        <div className='page-left'>
+const Page1 = React.forwardRef((props, ref) => 
+    <div className='page-section' data-scroll-to="page1" ref={ref}>
+        <div className='page-left' id='page1'>
             <p>01</p>
             <h1>
                 Initial ​Assessment
@@ -21,7 +20,6 @@ const Page2 = () => {
             <img src={Logo} alt="" width={300} height={300} />
         </div> 
     </div>
-  )
-}
+)
 
-export default Page2;
+export default Page1;
